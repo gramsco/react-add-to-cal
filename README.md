@@ -9,12 +9,11 @@ const Calendar = dynamic(() => import("../components/googlecal"), {
 
 export default function GoogleCal() {
   const [event, setEvent] = useState({
-    title: "test",
+    title: "Walking down the street",
     start: new Date(),
     duration: 120,
-    address: "yolo",
-    description: "yolo2",
-    text: "wesh",
+    address: "Abbey Road",
+    description: "This event is gonna be so cool",
   });
 
   const handleChange = (e) =>
@@ -39,4 +38,5 @@ export default function GoogleCal() {
     </div>
   );
 }
+
 ```
